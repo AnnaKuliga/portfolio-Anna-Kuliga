@@ -4,11 +4,53 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: rgba(15, 15, 15, 0.9);
+}
 .back-video {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+.btn-branding-outline {
+  color: rgba(216, 215, 215, 0.87);
+  border: 1px solid rgba(216, 215, 215, 0.87);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 17px 30px;
+}
+.btn-branding-outline:hover {
+  color: white;
+  border: 1px solid white;
+}
+.container p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+}
+.container h2 {
+  color: white;
+  transition: 0.5s;
+}
+.container h2:hover {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+.container img {
+  max-width: 500px;
+  border-radius: 10px;
+  -webkit-filter: grayscale(65%);
+  filter: grayscale(65%);
+}
+.container img:hover {
+  -webkit-filter: grayscale(45%);
+  filter: grayscale(45%);
 }
 .content {
   color: white;
@@ -52,6 +94,7 @@
   align-items: center;
   justify-content: center;
 }
+
 nav .logo {
   width: 230px;
   border-radius: 50%;
@@ -61,7 +104,9 @@ nav ul li {
   display: inline-block;
   margin-left: 50px;
 }
-
+.project-description p {
+  text-align: justify;
+}
 @media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
