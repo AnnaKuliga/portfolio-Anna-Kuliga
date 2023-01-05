@@ -45,8 +45,8 @@ body {
 .container img {
   max-width: 500px;
   border-radius: 10px;
-  -webkit-filter: grayscale(65%);
-  filter: grayscale(65%);
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
 }
 .container img:hover {
   -webkit-filter: grayscale(45%);
@@ -117,5 +117,19 @@ nav ul li {
   .back-video {
     width: auto;
     height: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .content h1 {
+    font-size: 44px;
+  }
+  .content p {
+    font-size: 30px;
+  }
+  .content a {
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 5px;
   }
 }
