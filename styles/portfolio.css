@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: rgba(26, 25, 25, 0.9);
+  background-color: rgba(28, 28, 28, 0.936);
 }
 .back-video {
   position: absolute;
@@ -87,7 +87,6 @@ body {
 .footer {
   background-color: rgba(118, 116, 116, 0.724);
   height: 100px;
-  margin-top: 100px;
   width: 100%;
 }
 
@@ -101,7 +100,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.main-body {
+  padding: 20px;
+}
 nav .logo {
   width: 230px;
   border-radius: 50%;
@@ -114,7 +115,8 @@ nav ul li {
 .open-source {
   background-color: rgb(33, 37, 41);
   color: rgb(201, 201, 202);
-  padding: 5px;
+  margin-top: 100px;
+  padding: 10px;
   text-align: center;
   width: 100%;
 }
@@ -125,6 +127,9 @@ nav ul li {
 .open-source a:hover {
   color: white;
 }
+.open-source i {
+  font-size: 20px;
+}
 .project-description p {
   text-align: justify;
 }
@@ -134,6 +139,10 @@ nav ul li {
 .phone-nr:hover {
   cursor: pointer;
   color: white;
+}
+.source {
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 @media (min-aspect-ratio: 16/9) {
   .back-video {
