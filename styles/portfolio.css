@@ -35,11 +35,11 @@ body {
   text-decoration: none;
   color: white;
 }
-.container h2 {
+.project-description h2 {
   color: white;
   transition: 0.5s;
 }
-.container h2:hover {
+.project-description h2:hover {
   -webkit-text-stroke: 1px white;
   color: transparent;
 }
@@ -67,7 +67,8 @@ body {
   -webkit-text-stroke: 1px white;
   color: transparent;
 }
-.content a {
+.content a,
+.page-button {
   font-family: "Playfair Display", serif;
   text-decoration: none;
   display: inline-block;
@@ -169,4 +170,31 @@ nav ul li {
     border-radius: 50px;
     margin-top: 5px;
   }
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: white;
+}
+.about-section h2 {
+  color: white;
+  font-size: 18px;
+}
+.about-section img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  border-radius: 10px;
+}
+.about-section img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.about-section p {
+  text-align: justify;
+}
+.about-section-centent {
+  margin-right: 100px;
 }
