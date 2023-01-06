@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgba(28, 28, 28, 0.936);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.footer {
+  background-color: rgba(118, 116, 116, 0.724);
+  height: 100px;
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .logo {
+  width: 230px;
+  border-radius: 50%;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+.open-source {
+  background-color: rgb(33, 37, 41);
+  color: rgb(201, 201, 202);
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.open-source a {
+  color: rgb(201, 201, 202);
+  text-decoration: none;
+}
+.open-source a:hover {
+  color: white;
+}
+.open-source i {
+  font-size: 20px;
+}
+.phone-nr {
+  color: rgb(201, 201, 202);
+}
+.phone-nr:hover {
+  cursor: pointer;
+  color: white;
+}
+.source {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
+.about-content {
+  color: white;
+  text-align: center;
+}
+.about-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.about-content h1:hover {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+.about-content p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 2;
+  margin: 0;
+}
+.about-content a {
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border: 1px solid white;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
