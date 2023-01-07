@@ -198,3 +198,22 @@ nav ul li {
 .about-section-centent {
   margin-right: 100px;
 }
+.work-content {
+  padding: 160px 20px;
+}
+.work-content h1 {
+  font-size: 64px;
+  margin: 20px;
+  padding: 10px;
+}
+.work-content img {
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.work-content p {
+  font-size: 18px;
+}
+.work-content h3 {
+  font-size: 24px;
+}
