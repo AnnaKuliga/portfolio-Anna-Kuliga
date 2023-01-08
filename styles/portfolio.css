@@ -6,6 +6,7 @@
 }
 body {
   background-color: rgba(28, 28, 28, 0.936);
+  color: white;
 }
 
 .back-video {
@@ -171,8 +172,37 @@ nav ul li {
     margin-top: 5px;
   }
 }
+.languages {
+  color: white;
+}
+.skills {
+  color: white;
+  font-size: 15px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: inline-block;
+}
+.circle-1 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: inline-block;
+}
+.about-cv p {
+  text-align: justify;
+  font-size: 15px;
+  color: rgb(201, 201, 202);
+  font-style: italic;
+}
 .about-section {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .about-section h1 {
   font-size: 64px;
@@ -202,7 +232,7 @@ nav ul li {
   padding: 160px 20px;
 }
 .work-content h1 {
-  font-size: 64px;
+  font-size: 54px;
   margin: 20px;
   padding: 10px;
 }
