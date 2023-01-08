@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 :root {
   --primary-color: white;
+  --primary-font: "Playfair Display", serif;
 }
 body {
   background-color: rgba(28, 28, 28, 0.936);
   color: var(--primary-color);
+  font-family: var(--primary-font);
 }
 
 .back-video {
@@ -261,10 +262,10 @@ nav ul li {
   box-shadow: 1px 5px 5px rgb(143, 142, 142);
 }
 .work-content p {
-  font-size: 10px;
+  font-size: 15px;
 }
 .work-content h3 {
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 10px;
 }
 .contact-box {
