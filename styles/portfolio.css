@@ -171,6 +171,13 @@ nav ul li {
     border-radius: 50px;
     margin-top: 5px;
   }
+  .certificates img {
+    max-width: 200px;
+    padding: 5px;
+  }
+  about-cv {
+    text-align: center;
+  }
 }
 .languages {
   color: white;
@@ -195,12 +202,16 @@ nav ul li {
   border-radius: 100%;
   display: inline-block;
 }
+.certificates img {
+  max-width: 350px;
+}
 .about-cv p {
   text-align: justify;
   font-size: 15px;
   color: rgb(201, 201, 202);
   font-style: italic;
 }
+
 .about-section {
   padding: 80px 20px;
 }
