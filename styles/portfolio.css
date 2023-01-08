@@ -42,6 +42,7 @@ body {
 }
 .project-description p {
   color: rgb(201, 201, 202);
+  text-align: justify;
 }
 .project-description h2 {
   color: var(--primary-color);
@@ -139,9 +140,6 @@ nav ul li {
 .open-source i {
   font-size: 20px;
 }
-.project-description p {
-  text-align: justify;
-}
 .phone-nr {
   color: rgb(201, 201, 202);
 }
@@ -152,39 +150,6 @@ nav ul li {
 .source {
   margin-top: 8px;
   margin-bottom: 20px;
-}
-@media (min-aspect-ratio: 16/9) {
-  .back-video {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  .back-video {
-    width: auto;
-    height: 100%;
-  }
-}
-@media (max-width: 900px) {
-  .content h1 {
-    font-size: 44px;
-  }
-  .content p {
-    font-size: 30px;
-  }
-  .content a {
-    font-size: 18px;
-    padding: 10px 50px;
-    border-radius: 50px;
-    margin-top: 5px;
-  }
-  .certificates img {
-    max-width: 200px;
-    padding: 5px;
-  }
-  about-cv {
-    text-align: center;
-  }
 }
 .languages {
   color: var(--primary-color);
@@ -218,7 +183,6 @@ nav ul li {
   color: rgb(201, 201, 202);
   font-style: italic;
 }
-
 .about-section {
   padding: 80px 20px;
 }
@@ -312,4 +276,38 @@ nav ul li {
 .languages-flags img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .content h1 {
+    font-size: 44px;
+  }
+  .content p {
+    font-size: 30px;
+  }
+  .content a {
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 5px;
+  }
+  .certificates img {
+    max-width: 200px;
+    padding: 5px;
+  }
+  about-cv {
+    text-align: center;
+  }
 }
