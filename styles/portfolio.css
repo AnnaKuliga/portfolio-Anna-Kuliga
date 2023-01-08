@@ -251,7 +251,7 @@ nav ul li {
   max-width: 300px;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px rgb(143, 142, 142);
+  box-shadow: 1px 5px 5px rgb(143, 142, 142);
 }
 .work-content p {
   font-size: 18px;
