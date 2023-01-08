@@ -216,13 +216,15 @@ nav ul li {
   padding: 80px 20px;
 }
 .about-section h1 {
-  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  font-size: 54px;
   line-height: 80px;
   color: white;
 }
 .about-section h2 {
-  color: white;
-  font-size: 18px;
+  color: rgb(222, 222, 222);
+  font-size: 15px;
+  font-style: italic;
 }
 .about-section img {
   -webkit-filter: grayscale(0%);
@@ -235,6 +237,8 @@ nav ul li {
 }
 .about-section p {
   text-align: justify;
+  color: rgb(201, 201, 202);
+  font-size: 18px;
 }
 .about-section-centent {
   margin-right: 100px;
@@ -288,6 +292,17 @@ nav ul li {
   filter: grayscale(0%);
 }
 .shecodes-skills img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.languages-flags img {
+  margin: 10px 0;
+  max-width: 40px;
+  border-radius: 80%;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.languages-flags img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
