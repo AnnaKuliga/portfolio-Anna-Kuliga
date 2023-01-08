@@ -222,13 +222,13 @@ nav ul li {
 .about-section {
   padding: 80px 20px;
 }
-.about-section h1 {
+.about-section h2 {
   font-family: "Playfair Display", serif;
   font-size: 54px;
   line-height: 80px;
   color: var(--primary-color);
 }
-.about-section h2 {
+.about-section h4 {
   color: rgb(222, 222, 222);
   font-size: 15px;
   font-style: italic;
