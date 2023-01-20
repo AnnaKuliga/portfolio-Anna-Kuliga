@@ -309,6 +309,9 @@ nav ul li {
     border-radius: 50px;
     margin-top: 5px;
   }
+  .certificates {
+    text-align: center;
+  }
   .certificates img {
     max-width: 200px;
     padding: 5px;
